@@ -1,4 +1,4 @@
-version: '3'
+version: '2'
 services:
   ui:
     build: ./ui
@@ -8,8 +8,6 @@ services:
       - api
   api:
     build: ./api
-    container_name: my_sample_v1
-    hostname: sample-app
     ports:
       - '8080:8080'
     depends_on:
