@@ -7,6 +7,7 @@ services:
     depends_on:
       - api
   api:
+    hostname: reactapp
     build: ./api
     ports:
       - '8080:8080'
