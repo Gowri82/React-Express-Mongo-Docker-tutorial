@@ -1,5 +1,5 @@
 FROM node:8
-ENV HOSTNAME myhost
+ENV hostname myhost
 # Create app directory
 WORKDIR /usr/src/app
 # Install app dependencies
